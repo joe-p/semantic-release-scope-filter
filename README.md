@@ -2,6 +2,10 @@
 
 This is a `semantic-release` plugin that enables filtering of commit messages BEFORE they get ingested by semantic-release. This means all commits filtered out by this plugin will not be visible to any other plugin. This is particularly useful for monorepos where you are performing releases based on commit scopes.
 
+## Installation
+
+This package is available on npm as [semantic-release-scope-filter](https://www.npmjs.com/package/semantic-release-scope-filter) and can be installed via any package manager
+
 ## Usage
 
 In your [semantic-release configuration](https://semantic-release.gitbook.io/semantic-release/usage/configuration) add this plugin with an array of scopes to allow through the filter:
