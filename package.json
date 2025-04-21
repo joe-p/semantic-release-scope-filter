@@ -1,0 +1,24 @@
+{
+  "name": "semantic-release-scope-filter",
+  "version": "0.2.0",
+  "description": "Filter commits via scope when being ingested by semantic-release",
+  "main": "src/index.js",
+  "keywords": [
+    "semantic-release",
+    "semantic-release-config",
+    "semantic-release-plugin"
+  ],
+  "author": "Joe Polny <joepolny@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/joe-p/semantic-release-scope-filter#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joe-p/semantic-release-scope-filter.git"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "readable-stream": "^4.7.0"
+  }
+}
