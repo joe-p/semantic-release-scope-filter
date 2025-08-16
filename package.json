@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-scope-filter",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.1",
   "description": "Filter commits via scope when being ingested by semantic-release",
   "type": "module",
   "main": "src/index.js",
